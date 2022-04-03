@@ -12,7 +12,7 @@ export default function Footer() {
 
               <span className="block">|</span>
 
-              <span className="block"><a href="https://bsmg.co" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-500 focus:text-gray-500">Powered by BSMG</a></span> </div>
+              <span className="block"><a href="http://bsmg.co" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-500 focus:text-gray-500">Powered by BSMG</a></span> </div>
           </div>
         </div>
       </Container>
