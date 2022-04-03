@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <NextSeo title="Home" />
+      <NextSeo title="Help Hargeisa Heal" />
 
       {/*<Script src="https://www.gofundme.com/static/js/embed.js" strategy="beforeInteractive" />*/}
 

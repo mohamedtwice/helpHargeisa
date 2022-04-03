@@ -7,7 +7,13 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.ico" />
-            <script async src={gtag} />
+            <meta property="og:title" content="Help Hargeisa Heal" />
+                <meta property="og:site_name" content="Help Hargeisa Heal" />
+                    <meta property="og:url" content="www.helphargeisa.org" />
+                        <meta property="og:description" content="" />
+                                <meta property="og:image" content="https://res.cloudinary.com/bsmg/image/upload/v1648972200/ogimg_wses5w.png" />
+
+                                <script async src={gtag} />
             <script
                 dangerouslySetInnerHTML={{
                     __html: `

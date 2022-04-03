@@ -91,7 +91,7 @@ export default function About() {
 
   return (
     <Layout>
-      <NextSeo title="About" />
+      <NextSeo title="About Help Hargeisa Heal" />
 
       {/*<Script src="https://www.gofundme.com/static/js/embed.js" strategy="beforeInteractive" />*/}
 
@@ -114,7 +114,7 @@ export default function About() {
                   <m.main
                     initial="initial"
                     animate="enter"
-                    exit="exit" variants={fade} className="pt-28 pb-8 md:pt-20 md:pb-10 xl:pt-24 xl:pb-14" onAnimationStart={() => { console.log(' enter') }}
+                    exit="exit" variants={fade} className="pt-28 pb-8 md:pt-20 md:pb-10 xl:pt-24 xl:pb-14 min-h-screen" onAnimationStart={() => { console.log(' enter') }}
                     onAnimationComplete={definition => {
                       console.log('Completed animating', definition)
                     }}>
