@@ -6,13 +6,15 @@ export default {
     type: 'website',
     locale: 'en_GB',
     url: 'https://www.helphargeisa.org/',
-  images: {
+  images: [
+          {
       url: 'https://res.cloudinary.com/bsmg/image/upload/v1648972200/ogimg_wses5w.png',
       width: 1200,
       height: 630,
       alt: 'Help Hargeisa Heals',
       type: 'image/jpeg',
     },
+    ],
     site_name: 'Help Hargeisa Heal',
   },
 };
