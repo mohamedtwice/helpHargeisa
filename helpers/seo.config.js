@@ -1,16 +1,19 @@
 export default {
-  defaultTitle: 'Boilerplate | Next x Tailwind x Motion x Locomotive Scroll',
-  description: 'A simple Next.js starter kit with Tailwind, Framer Motion and Locomotive.',
-  titleTemplate: '%s | Next x Tailwind x Motion x Locomotive',
+  defaultTitle: 'Help Hargeisa Heal',
+  description: 'A fundraiser to support rebuilding relief.',
+  titleTemplate: '%s | Help Hargeisa Heal',
   openGraph: {
     type: 'website',
     locale: 'en_GB',
-    url: 'https://sg-next-tailwind-motion.vercel.app/',
-    site_name: 'Next x Tailwind x Motion x Locomotive',
+    url: 'https://www.helphargeisa.org/',
+    site_name: 'Help Hargeisa Heal',
   },
-  twitter: {
-    handle: '@samuelgoddard',
-    site: '@site',
-    cardType: 'summary_large_image',
-  },
+  images: [
+    {
+      url: 'https://res.cloudinary.com/bsmg/image/upload/v1648972200/ogimg_wses5w.png',
+      width: 1200,
+      height: 630,
+      alt: 'Help Hargeisa Heals',
+      type: 'image/jpeg',
+    },
 };
