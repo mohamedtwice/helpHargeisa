@@ -1,0 +1,31 @@
+/* Webfonts */
+@import '_fonts.css';
+
+/* Tailwind base/components */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Custom Style Imports */
+@import '_typography.css';
+@import '_locomotive.css';
+
+/* Tailwind Utilities */
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;310;510;719;878&display=swap');
+
+/* Simple defaults */
+body {
+  @apply font-sans antialiased text-black bg-white;
+}
+
+/* Trigger Animation  */
+.trigger{
+  @apply transition-colors delay-200 duration-200;
+  @apply bg-transparent;
+
+  &.is-inview{
+    @apply transition-colors delay-200 duration-1000;
+    @apply bg-red-300;
+  }
+}
