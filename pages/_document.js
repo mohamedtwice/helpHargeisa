@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+            <meta property="og:image" content="https://res.cloudinary.com/bsmg/image/upload/v1648972200/ogimg_wses5w.png" />
                                 <script async src={gtag} />
             <script
                 dangerouslySetInnerHTML={{
